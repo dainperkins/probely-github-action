@@ -1,4 +1,4 @@
-FROM python:3.12-slim-bookworm
+FROM python:3.13.9-slim-bookworm
 
 RUN pip install requests
 COPY scan.py /scan.py
